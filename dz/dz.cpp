@@ -21,7 +21,7 @@ int main()
             {
                 continue;
             }
-            if (n1 % i == 0||n2 % i == 0)
+            if (n1 % i == 0 && n2 % i == 0)
             {
                 cout << i << ' ';
             }
@@ -36,7 +36,7 @@ int main()
             {
                 continue;
             }
-            if (n1 % i == 0 || n2 % i == 0)
+            if (n1 % i == 0 && n2 % i == 0)
             {
                 cout << i << ' ';
             }
